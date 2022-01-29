@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Jun  8 22:05:02 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : quartusquake
+Top-level Entity Name : DE1_SoC_TopLevelFile
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 5220
+Total pins : 90
+Total virtual pins : 0
+Total block memory bits : 2,120,832
+Total DSP Blocks : 6
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

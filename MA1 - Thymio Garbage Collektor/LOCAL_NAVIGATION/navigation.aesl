@@ -1,0 +1,190 @@
+<!DOCTYPE aesl-source>
+<network>
+
+
+<!--list of global events-->
+<event name="event_0_newPosition" size="3"/>
+<event name="event_1_newTarget" size="2"/>
+<event name="event_2_stop" size="0"/>
+<event name="event_3_velocity" size="2"/>
+<event name="event_4_targetAck" size="2"/>
+<event name="event_5_stopAck" size="0"/>
+<event name="event_6_debug" size="3"/>
+
+
+<!--node Thymio 480-->
+<node name="Thymio 480" nodeId="{c71f69fd-e506-4448-a980-2a203f7427b0}"><![CDATA[var position[3]
+var target[2]
+var deltaPos[2]
+var deltaAngle
+var targetValid = 0
+var positionValid = 0
+var i
+var timeSinceObstacle
+
+var obstacleState = 0  # 0 = no obstacle, 1 = obstacle on the left, -1 = obstacle on the right
+
+sub updateTrajectory
+	 if targetValid == 0 or positionValid == 0 then
+	 	motor.left.target = 0
+	 	motor.right.target = 0
+	 	return
+	 end
+
+	  deltaPos = target - position[0:1]
+	  call math.atan2(deltaAngle, deltaPos[1], deltaPos[0])
+	  deltaAngle -= position[2]
+
+	  #emit event_6_debug [deltaPos, deltaAngle]
+
+	  if obstacleState != 0 then
+	  	i = 0
+	  	while i<5 do
+	  		if prox.horizontal[i] != 0 then
+	  			return
+	  		end
+	  		i++
+	  	end
+	  	if (obstacleState ==1 and deltaAngle >= 0) or (obstacleState == -1 and deltaAngle <= 0) then
+	  		obstacleState = 0
+	  		leds.top = [0,0,0]
+	  	else
+	  		return
+	  	end
+	  end
+
+	  if deltaAngle > 512 then
+	  	motor.left.target = 40
+	  	motor.right.target = -40
+	  elseif  deltaAngle < -512 then
+	  	motor.left.target = -40
+	  	motor.right.target = 40
+	  else
+	  	motor.left.target = 100 + (deltaAngle >> 6)
+	  	motor.right.target = 100 - (deltaAngle >> 6)
+	  end
+
+
+
+onevent event_1_newTarget
+	target = event.args[0:1]
+	targetValid = 1
+	emit event_4_targetAck target
+	callsub updateTrajectory
+
+onevent event_0_newPosition
+	position = event.args[0:2]
+	positionValid = 1
+	callsub updateTrajectory
+
+onevent motor
+	if targetValid != 0 and positionValid != 0 then
+		emit event_3_velocity [motor.left.speed, motor.right.speed]
+	end
+
+onevent prox
+	if  obstacleState == 0 and targetValid != 0 and positionValid != 0 then
+		if prox.horizontal[2] != 0 then
+			if prox.horizontal[1] > prox.horizontal[3] then
+				obstacleState = 1
+			elseif prox.horizontal[1] < prox.horizontal[3] then
+				obstacleState = -1
+			elseif prox.horizontal[0] > prox.horizontal[4] then
+				obstacleState = 1
+			else
+				obstacleState = -1
+			end
+
+		elseif prox.horizontal[1] + prox.horizontal[3] != 0 then
+			if prox.horizontal[1] > prox.horizontal[3] then
+				obstacleState = 1
+			elseif  prox.horizontal[1] < prox.horizontal[3] then
+				obstacleState = -1
+			elseif  prox.horizontal[0] > prox.horizontal[4] then
+				obstacleState = 1
+			else
+				obstacleState = -1
+			end
+
+		elseif prox.horizontal[0] > prox.horizontal[4] then
+			obstacleState = 1
+		elseif prox.horizontal[4] > 0 then
+			obstacleState = -1
+		end
+	end
+
+	if  obstacleState == 1 then
+		leds.top = [50,50,0]
+		i = 1
+		while i<5 do
+			if prox.horizontal[i] != 0 then
+				motor.left.target = 50
+				motor.right.target = -50
+				timeSinceObstacle = 0
+				return
+			end
+			i++
+		end
+		if prox.horizontal[0] == 0 then
+			timeSinceObstacle++
+			if  timeSinceObstacle > 15 then
+				motor.left.target = 50
+				motor.right.target = 100
+			else
+				motor.left.target = 100
+				motor.right.target = 100
+			end
+		else
+			timeSinceObstacle = 0
+			motor.left.target = 100
+			motor.right.target = 50
+		end
+	end
+
+	if  obstacleState == -1 then
+		leds.top = [0,0,50]
+		i = 0
+		while i<4 do
+			if prox.horizontal[i] != 0 then
+				motor.left.target = -50
+				motor.right.target = 50
+				timeSinceObstacle = 0
+				return
+			end
+			i++
+		end
+		if prox.horizontal[4] == 0 then
+			timeSinceObstacle++
+			if  timeSinceObstacle > 15 then
+				motor.left.target = 100
+				motor.right.target = 50
+			else
+				motor.left.target = 100
+				motor.right.target = 100
+			end
+		else
+			timeSinceObstacle = 0
+			motor.left.target = 50
+			motor.right.target = 100
+		end
+	end
+
+
+onevent button.center
+	targetValid = 0
+	positionValid = 0
+	obstacleState = 0
+	leds.top = [0,0,0]
+	callsub updateTrajectory
+
+onevent event_2_stop
+	targetValid = 0
+	obstacleState = 0
+	leds.top = [0,0,0]
+	emit event_5_stopAck
+	callsub updateTrajectory
+
+]]></node>
+
+
+</network>

@@ -1,0 +1,14 @@
+#datas to estimate the speed conversion factor between thymio speed [-500;500] and real speed [mm/s].
+#first column : thymio speed ; second column time [sec]; third : distance [mm]
+|50|30|555|
+|50|30|563|
+|50|30|554|
+|100|30|948|
+|100|30|955|
+|100|30|960|
+|200|30|1874|
+|200|30|1871|
+|200|30|1871|
+|300|30|2746|
+|300|30|2750|
+|300|30|2752|

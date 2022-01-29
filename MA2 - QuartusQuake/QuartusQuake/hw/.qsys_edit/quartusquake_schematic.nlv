@@ -1,0 +1,39 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst quartusquake.pio_1 -pg 1 -lvl 5 -y 280
+preplace inst quartusquake.nios2_gen2_0.clock_bridge -pg 1
+preplace inst quartusquake.mutex_0 -pg 1 -lvl 3 -y 660
+preplace inst quartusquake -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst quartusquake.jtag_uart_0 -pg 1 -lvl 4 -y 200
+preplace inst quartusquake.timer_0 -pg 1 -lvl 3 -y 260
+preplace inst quartusquake.nios2_gen2_1.reset_bridge -pg 1
+preplace inst quartusquake.jtag_uart_1 -pg 1 -lvl 4 -y 460
+preplace inst quartusquake.timer_1 -pg 1 -lvl 4 -y 560
+preplace inst quartusquake.sdram_controller_0 -pg 1 -lvl 5 -y 520
+preplace inst quartusquake.nios2_gen2_0.reset_bridge -pg 1
+preplace inst quartusquake.nios2_gen2_1.cpu -pg 1
+preplace inst quartusquake.mailbox_simple_0 -pg 1 -lvl 3 -y 100
+preplace inst quartusquake.pll_0 -pg 1 -lvl 4 -y 740
+preplace inst quartusquake.parallel_port_0 -pg 1 -lvl 5 -y 180
+preplace inst quartusquake.onchip_memory2_0 -pg 1 -lvl 4 -y 100
+preplace inst quartusquake.nios2_gen2_0.cpu -pg 1
+preplace inst quartusquake.nios2_gen2_1.clock_bridge -pg 1
+preplace inst quartusquake.nios2_gen2_0 -pg 1 -lvl 1 -y 140
+preplace inst quartusquake.nios2_gen2_1 -pg 1 -lvl 3 -y 450
+preplace inst quartusquake.clk_0 -pg 1 -lvl 1 -y 580
+preplace inst quartusquake.pio_0 -pg 1 -lvl 4 -y 320
+preplace netloc EXPORT<net_container>quartusquake</net_container>(MASTER)pll_0.outclk2,(MASTER)quartusquake.pll_0_sdram) 1 4 2 NJ 790 NJ
+preplace netloc EXPORT<net_container>quartusquake</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)quartusquake.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>quartusquake</net_container>(SLAVE)pio_0.external_connection,(SLAVE)quartusquake.pio_0_buttons) 1 0 4 NJ 370 NJ 370 NJ 370 NJ
+preplace netloc FAN_OUT<net_container>quartusquake</net_container>(SLAVE)jtag_uart_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)timer_0.clk,(MASTER)pll_0.outclk0,(SLAVE)parallel_port_0.clock,(SLAVE)nios2_gen2_1.clk,(SLAVE)mailbox_simple_0.clk,(SLAVE)mutex_0.clk,(SLAVE)nios2_gen2_0.clk,(SLAVE)timer_1.clk,(SLAVE)pio_1.clk,(SLAVE)pio_0.clk,(SLAVE)jtag_uart_1.clk) 1 0 5 200 100 NJ 100 790 50 1400 50 1660
+preplace netloc EXPORT<net_container>quartusquake</net_container>(SLAVE)quartusquake.parallel_port_0_ledmatrix,(SLAVE)parallel_port_0.conduit_end) 1 0 5 NJ 320 NJ 320 NJ 230 NJ 190 NJ
+preplace netloc EXPORT<net_container>quartusquake</net_container>(SLAVE)clk_0.clk_in,(SLAVE)quartusquake.clk) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>quartusquake</net_container>(SLAVE)mailbox_simple_0.rst_n,(SLAVE)timer_1.reset,(SLAVE)mutex_0.reset,(SLAVE)pio_0.reset,(SLAVE)pll_0.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)sdram_controller_0.reset,(SLAVE)nios2_gen2_0.reset,(MASTER)clk_0.clk_reset,(SLAVE)nios2_gen2_1.reset,(SLAVE)parallel_port_0.reset_sink,(SLAVE)onchip_memory2_0.reset1,(SLAVE)pio_1.reset,(SLAVE)jtag_uart_1.reset,(MASTER)nios2_gen2_0.debug_reset_request,(SLAVE)timer_0.reset,(MASTER)nios2_gen2_1.debug_reset_request) 1 0 5 220 300 580 210 830 70 1340 70 1720
+preplace netloc POINT_TO_POINT<net_container>quartusquake</net_container>(MASTER)pll_0.outclk1,(SLAVE)sdram_controller_0.clk) 1 4 1 1740
+preplace netloc EXPORT<net_container>quartusquake</net_container>(SLAVE)quartusquake.sdram_controller_0_wire,(SLAVE)sdram_controller_0.wire) 1 0 5 NJ 830 NJ 830 NJ 830 NJ 830 NJ
+preplace netloc EXPORT<net_container>quartusquake</net_container>(SLAVE)quartusquake.pio_1_leds,(SLAVE)pio_1.external_connection) 1 0 5 NJ 80 NJ 80 NJ 30 NJ 30 NJ
+preplace netloc INTERCONNECT<net_container>quartusquake</net_container>(SLAVE)pio_0.irq,(SLAVE)timer_0.irq,(SLAVE)timer_1.irq,(SLAVE)mailbox_simple_0.interrupt_msg_pending,(SLAVE)jtag_uart_0.irq,(MASTER)nios2_gen2_1.irq,(MASTER)nios2_gen2_0.irq,(SLAVE)jtag_uart_1.irq) 1 1 3 NJ 230 750 250 1380
+preplace netloc POINT_TO_POINT<net_container>quartusquake</net_container>(SLAVE)pll_0.refclk,(MASTER)clk_0.clk) 1 1 3 NJ 590 NJ 750 NJ
+preplace netloc INTERCONNECT<net_container>quartusquake</net_container>(SLAVE)nios2_gen2_0.debug_mem_slave,(MASTER)nios2_gen2_0.instruction_master,(SLAVE)sdram_controller_0.s1,(SLAVE)mailbox_simple_0.avmm_msg_receiver,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)timer_1.s1,(MASTER)nios2_gen2_1.instruction_master,(SLAVE)jtag_uart_1.avalon_jtag_slave,(SLAVE)mailbox_simple_0.avmm_msg_sender,(SLAVE)timer_0.s1,(SLAVE)pio_1.s1,(SLAVE)onchip_memory2_0.s1,(MASTER)nios2_gen2_1.data_master,(SLAVE)mutex_0.s1,(SLAVE)pio_0.s1,(MASTER)nios2_gen2_0.data_master,(SLAVE)parallel_port_0.avalon_slave_0,(SLAVE)nios2_gen2_1.debug_mem_slave) 1 0 5 200 280 600 190 810 90 1320 90 1700
+levelinfo -pg 1 0 170 2070
+levelinfo -hier quartusquake 180 340 730 1080 1510 1820 1970

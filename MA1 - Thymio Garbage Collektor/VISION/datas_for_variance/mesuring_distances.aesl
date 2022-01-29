@@ -1,0 +1,23 @@
+<!DOCTYPE aesl-source>
+<network>
+
+
+<!--list of global events-->
+
+
+<!--node Thymio 480-->
+<node nodeId="{c71f69fd-e506-4448-a980-2a203f7427b0}" name="Thymio 480"><![CDATA[
+
+onevent button.center
+	timer.period[0] = 20000 #20 seconds interrupts
+	motor.right.target = 150
+	motor.left.target = 150
+	
+	
+onevent timer0
+	motor.right.target = 150
+	motor.left.target = 150
+]]></node>
+
+
+</network>

@@ -1,0 +1,871 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+                              obj/default/hello_world.o (memcpy)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+                              obj/default/hello_world.o (alt_ic_isr_register)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o) (alt_irq_active)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o (alt_load)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o (alt_main)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+                              obj/default/hello_world.o (usleep)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_mailbox_simple_init)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+                              obj/default/hello_world.o (altera_avalon_mutex_open)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o) (alt_errno)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o) (alt_find_dev)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o) (alt_tick)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+/home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+/opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o) (errno)
+/opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o) (memcmp)
+/opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o) (strlen)
+/opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+                              /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o) (__udivsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000004000000 0x0000000000000020
+sdram_controller_0 0x0000000004000020 0x00000000000fffe0
+onchip_memory2_0 0x0000000008040000 0x0000000000040000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world.o
+LOAD obj/default/led_control.o
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libstdc++.a
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a
+START GROUP
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a
+LOAD /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+END GROUP
+LOAD /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a
+                0x0000000004000000                __alt_mem_sdram_controller_0 = 0x4000000
+                0x0000000008040000                __alt_mem_onchip_memory2_0 = 0x8040000
+
+.entry          0x0000000004000000       0x20
+ *(.entry)
+ .entry         0x0000000004000000       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+                0x0000000004000000                __reset
+                0x000000000400001c                _exit
+
+.exceptions     0x0000000004000020      0x168
+                0x0000000004000020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000004000020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000004000020        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+                0x0000000004000020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000004000020        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+                0x0000000004000020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000004000020       0x54 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000004000074       0x10 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000004000084        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000004000088        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000400008c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000400008c        0x8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000004000094       0x14 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000040000a8        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000040000a8        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000040000a8       0x54 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000040000fc       0x60 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x00000000040000fc                alt_irq_handler
+ .exceptions    0x000000000400015c       0x2c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000400015c                alt_instruction_exception_entry
+                0x0000000004000188                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000004000020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000004000188     0x1624
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000004000188       0x4c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+                0x0000000004000188                _start
+ .text          0x00000000040001d4      0x274 obj/default/hello_world.o
+                0x000000000400036c                init()
+ .text.startup  0x0000000004000448       0x2c obj/default/hello_world.o
+                0x0000000004000448                main
+ .text          0x0000000004000474      0x4f4 obj/default/led_control.o
+                0x0000000004000474                digitalWrite(int, int)
+                0x0000000004000498                LedControl::shiftOut(unsigned char, unsigned char, unsigned char, unsigned char)
+                0x0000000004000560                LedControl::spiTransfer(int, unsigned char, unsigned char)
+                0x0000000004000624                LedControl::shutdown(int, bool)
+                0x0000000004000650                LedControl::setScanLimit(int, int)
+                0x0000000004000674                LedControl::setIntensity(int, int)
+                0x0000000004000698                LedControl::clearDisplay(int)
+                0x0000000004000720                LedControl::LedControl(int, int, int, int)
+                0x0000000004000720                LedControl::LedControl(int, int, int, int)
+                0x0000000004000814                LedControl::setLed(int, int, int, bool)
+                0x0000000004000888                LedControl::setRow(int, int, unsigned char)
+                0x0000000004000930                LedControl::setColumn(int, int, unsigned char)
+ .text          0x0000000004000968        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000004000968       0x28 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+                0x0000000004000968                memcpy
+ .text          0x0000000004000990       0x8c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+                0x0000000004000990                alt_ic_isr_register
+                0x0000000004000994                alt_ic_irq_enable
+                0x00000000040009cc                alt_ic_irq_disable
+                0x0000000004000a04                alt_ic_irq_enabled
+ .text          0x0000000004000a1c       0x68 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000004000a1c                alt_iic_isr_register
+ .text          0x0000000004000a84        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000004000a84        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000004000a84        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000004000a84       0xe0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+                0x0000000004000a84                alt_load
+ .text          0x0000000004000b64       0x2c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000004000b64                alt_main
+ .text          0x0000000004000b90        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+                0x0000000004000b90                usleep
+ .text          0x0000000004000b94       0x6c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000004000b94                alt_irq_init
+                0x0000000004000bb4                alt_sys_init
+ .text          0x0000000004000c00      0x518 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+                0x0000000004000cec                altera_avalon_mailbox_simple_init
+                0x0000000004000d74                altera_avalon_mailbox_open
+                0x0000000004000e90                altera_avalon_mailbox_close
+                0x0000000004000f2c                altera_avalon_mailbox_status
+                0x0000000004000f60                altera_avalon_mailbox_send
+                0x0000000004001058                altera_avalon_mailbox_retrieve_poll
+ .text          0x0000000004001118       0xf4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+                0x0000000004001118                altera_avalon_mutex_open
+                0x0000000004001164                altera_avalon_mutex_close
+                0x0000000004001168                altera_avalon_mutex_lock
+                0x000000000400118c                altera_avalon_mutex_trylock
+                0x00000000040011b4                altera_avalon_mutex_unlock
+                0x00000000040011d4                altera_avalon_mutex_is_mine
+                0x00000000040011fc                altera_avalon_mutex_first_lock
+ .text          0x000000000400120c       0x84 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x0000000004001248                alt_avalon_timer_sc_init
+ .text          0x0000000004001290       0x78 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000004001290                alt_busy_sleep
+ .text          0x0000000004001308       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000004001308                alt_dcache_flush_all
+ .text          0x0000000004001320       0x6c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000004001320                alt_dev_llist_insert
+ .text          0x000000000400138c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x000000000400138c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .text          0x000000000400138c       0x74 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+                0x000000000400138c                alt_find_dev
+ .text          0x0000000004001400        0xc /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000004001400                alt_icache_flush_all
+ .text          0x000000000400140c       0x74 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000400140c                alt_exception_cause_generated_bad_addr
+ .text          0x0000000004001480       0xec /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000000004001480                alt_alarm_stop
+                0x00000000040014b4                alt_tick
+ .text          0x000000000400156c        0x8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000000000400156c                altera_nios2_gen2_irq_init
+ .text          0x0000000004001574       0x38 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x0000000004001574                alt_icache_flush
+ .text          0x00000000040015ac        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .text          0x00000000040015ac        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .text.memcmp   0x00000000040015ac       0x30 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+                0x00000000040015ac                memcmp
+ .text          0x00000000040015dc        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x00000000040015dc       0x1c /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                0x00000000040015dc                strlen
+ .text          0x00000000040015f8      0x1b4 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+                0x00000000040015f8                __divsi3
+                0x000000000400167c                __modsi3
+                0x00000000040016f0                __udivsi3
+                0x0000000004001754                __umodsi3
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00000000040017ac                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00000000040017ac                . = ALIGN (0x4)
+
+.rodata         0x00000000040017ac       0x28
+                0x00000000040017ac                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00000000040017ac                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00000000040017ac        0xd obj/default/hello_world.o
+ *fill*         0x00000000040017b9        0x3 
+ .rodata.str1.4
+                0x00000000040017bc       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+                                         0x26 (size before relaxing)
+ *(.rodata1)
+                0x00000000040017d4                . = ALIGN (0x4)
+                0x00000000040017d4                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00000000040017ac                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00000000040017d4       0x94 load address 0x0000000004001868
+                0x00000000040017d4                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00000000040017d4                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .data          0x00000000040017d4        0x0 obj/default/hello_world.o
+ .data          0x00000000040017d4        0x0 obj/default/led_control.o
+ .data          0x00000000040017d4        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x00000000040017d4        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .data          0x00000000040017d4       0x58 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000400182c        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .data          0x000000000400182c        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .data          0x000000000400182c        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .data          0x000000000400182c        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .data          0x000000000400182c        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+                0x000000000400982c                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000400182c       0x18 obj/default/hello_world.o
+ .sdata         0x0000000004001844        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000000004001844                alt_priority_mask
+ .sdata         0x0000000004001848        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x0000000004001848                jtag_uart_0
+ .sdata         0x000000000400184c        0x8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+                0x000000000400184c                alt_mailbox_simple_list
+ .sdata         0x0000000004001854        0x8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+                0x0000000004001854                alt_mutex_list
+ .sdata         0x000000000400185c        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+                0x000000000400185c                alt_errno
+ .sdata         0x0000000004001860        0x8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000000004001860                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000004001868                . = ALIGN (0x4)
+                0x0000000004001868                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000004001868                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000004001868                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00000000040018fc      0x124
+                0x00000000040018fc                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00000000040018fc        0x4 obj/default/hello_world.o
+                0x00000000040018fc                mutti
+ .sbss          0x0000000004001900        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000000004001900                alt_irq_active
+ .sbss          0x0000000004001904        0xc /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+                0x0000000004001904                alt_envp
+                0x0000000004001908                alt_argv
+                0x000000000400190c                alt_argc
+ .sbss          0x0000000004001910        0x4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000004001910                alt_instruction_exception_handler
+ .sbss          0x0000000004001914        0x8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000000004001914                _alt_nticks
+                0x0000000004001918                _alt_tick_rate
+ .sbss          0x000000000400191c        0x4 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                0x000000000400191c                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000004001920        0x0 obj/default/hello_world.o
+ .bss           0x0000000004001920        0x0 obj/default/led_control.o
+ .bss           0x0000000004001920        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000004001920        0x0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000004001920        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000004001920        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .bss           0x0000000004001920        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000004001920        0x0 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+ *(COMMON)
+ COMMON         0x0000000004001920      0x100 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x0000000004001920                alt_irq
+                0x0000000004001a20                . = ALIGN (0x4)
+                0x0000000004001a20                __bss_end = ABSOLUTE (.)
+
+.sdram_controller_0
+                0x0000000004001a20        0x0
+                [!provide]                        PROVIDE (_alt_partition_sdram_controller_0_start, ABSOLUTE (.))
+ *(.sdram_controller_0 .sdram_controller_0. sdram_controller_0.*)
+                0x0000000004001a20                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_sdram_controller_0_end, ABSOLUTE (.))
+                0x0000000004001a20                _end = ABSOLUTE (.)
+                0x0000000004001a20                end = ABSOLUTE (.)
+                0x0000000004001a20                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_sdram_controller_0_load_addr, LOADADDR (.sdram_controller_0))
+
+.onchip_memory2_0
+                0x0000000008040000        0x0 load address 0x0000000004001a20
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000000008040000                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/hello_world.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 obj/default/led_control.o
+ .comment       0x0000000000000023       0x24 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x408
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x28 obj/default/hello_world.o
+ .debug_aranges
+                0x0000000000000050       0x20 obj/default/led_control.o
+ .debug_aranges
+                0x0000000000000070       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000090       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000000b0       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000000d0       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000100       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000120       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000138       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000158       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000178       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x0000000000000198       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x0000000000000218       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x0000000000000238       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000258       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000278       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000290       0x38 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000000000002c8       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000000000002e8       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000308       0x28 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000330       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x0000000000000350       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000370       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000390       0x18 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000000000003a8       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000000000003c8       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000003e8       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x48a0
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x6a /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000006a      0x661 obj/default/hello_world.o
+ .debug_info    0x00000000000006cb      0xaf7 obj/default/led_control.o
+ .debug_info    0x00000000000011c2      0x119 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000012db      0x38a /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000001665      0x232 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000001897       0x73 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000190a      0x184 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000001a8e       0x88 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000001b16      0x1c9 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000001cdf      0x169 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000001e48       0xd1 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x0000000000001f19      0x600 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000002519      0x987 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_info    0x0000000000002ea0      0x43d /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_info    0x00000000000032dd      0x270 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x000000000000354d       0xd8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x0000000000003625       0xa6 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00000000000036cb      0x1b3 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000000000000387e       0xa6 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000003924       0x79 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x000000000000399d      0x32d /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000003cca       0xb8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000003d82      0x1f8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000003f7a      0x2a9 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_info    0x0000000000004223       0x92 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000042b5       0xde /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000004393       0x8a /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x000000000000441d       0xf4 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000004511       0xc9 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x00000000000045da      0x2c6 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug_abbrev   0x0000000000000000     0x1f21
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x269 obj/default/hello_world.o
+ .debug_abbrev  0x000000000000027b      0x29a obj/default/led_control.o
+ .debug_abbrev  0x0000000000000515       0x9c /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x00000000000005b1      0x1a0 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000000751      0x19c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00000000000008ed       0x12 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000000000008ff      0x120 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000000a1f       0x40 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000000a5f       0xd8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000b37       0xee /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000c25       0x8d /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x0000000000000cb2      0x210 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000ec2      0x32e /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_abbrev  0x00000000000011f0      0x21e /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_abbrev  0x000000000000140e      0x191 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x000000000000159f       0x8d /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x000000000000162c       0x5a /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001686      0x11c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000000000017a2       0x5a /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000000000017fc       0x12 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000000000000180e      0x125 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000001933       0x6f /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000000000019a2       0xd8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000001a7a      0x187 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x0000000000001c01       0x42 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000001c43       0x9b /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000001cde       0x37 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000001d15       0x7f /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000001d94       0x7f /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000001e13      0x10e /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug_line     0x0000000000000000     0x1d03
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x233 obj/default/hello_world.o
+ .debug_line    0x00000000000002a5      0x20f obj/default/led_control.o
+ .debug_line    0x00000000000004b4      0x15b /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_line    0x000000000000060f       0xf1 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000000700       0xd6 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000000000007d6       0x6b /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000000841       0xa5 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000000000008e6       0x50 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000000936       0xa4 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000009da       0xbd /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000a97       0xd1 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x0000000000000b68      0x1ad /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000d15      0x295 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_line    0x0000000000000faa      0x150 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_line    0x00000000000010fa       0xfe /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x00000000000011f8       0xb3 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x00000000000012ab       0x5a /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001305       0xd8 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00000000000013dd       0x51 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x000000000000142e       0xb3 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000000000014e1      0x109 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000000000015ea       0x6e /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000001658       0xc6 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x000000000000171e      0x104 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000001822       0x50 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001872       0x7d /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x00000000000018ef       0x5c /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x000000000000194b      0x15d /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000001aa8      0x159 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001c01      0x102 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug_frame    0x0000000000000000      0x7ec
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0xb0 obj/default/hello_world.o
+ .debug_frame   0x00000000000000b0      0x168 obj/default/led_control.o
+ .debug_frame   0x0000000000000218       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000238       0x50 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000288       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000000000002b8       0x34 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000000000002ec       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000000000000031c       0x2c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000348       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x0000000000000368       0x48 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000003b0      0x138 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_frame   0x00000000000004e8       0x90 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_frame   0x0000000000000578       0x4c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x00000000000005c4       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000000000005f4       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000614       0x2c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000640       0x3c /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x000000000000067c       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000000000000069c       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x00000000000006cc       0x50 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x000000000000071c       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x000000000000073c       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x000000000000075c       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_frame   0x000000000000077c       0x20 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x000000000000079c       0x50 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug_str      0x0000000000000000     0x1799
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x3aa obj/default/hello_world.o
+                                        0x412 (size before relaxing)
+ .debug_str     0x00000000000003aa       0xb2 obj/default/led_control.o
+                                        0x389 (size before relaxing)
+ .debug_str     0x000000000000045c      0x141 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+                                        0x1da (size before relaxing)
+ .debug_str     0x000000000000059d      0x179 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+                                        0x24c (size before relaxing)
+ .debug_str     0x0000000000000716       0x37 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x206 (size before relaxing)
+ .debug_str     0x000000000000074d       0x3a /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                        0x190 (size before relaxing)
+ .debug_str     0x0000000000000787       0x17 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                        0x133 (size before relaxing)
+ .debug_str     0x000000000000079e      0x113 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+                                        0x235 (size before relaxing)
+ .debug_str     0x00000000000008b1       0x6b /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_main.o)
+                                        0x1ae (size before relaxing)
+ .debug_str     0x000000000000091c       0x2f /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+                                        0x150 (size before relaxing)
+ .debug_str     0x000000000000094b      0x270 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+                                        0x44b (size before relaxing)
+ .debug_str     0x0000000000000bbb      0x1ea /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+                                        0x51d (size before relaxing)
+ .debug_str     0x0000000000000da5       0xbf /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+                                        0x2d7 (size before relaxing)
+ .debug_str     0x0000000000000e64       0x68 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x261 (size before relaxing)
+ .debug_str     0x0000000000000ecc       0x33 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                                        0x164 (size before relaxing)
+ .debug_str     0x0000000000000eff       0x1f /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x14e (size before relaxing)
+ .debug_str     0x0000000000000f1e       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1c5 (size before relaxing)
+ .debug_str     0x0000000000000f4e       0x14 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_errno.o)
+                                        0x13e (size before relaxing)
+ .debug_str     0x0000000000000f62       0x25 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+                                        0x1f3 (size before relaxing)
+ .debug_str     0x0000000000000f87       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x15f (size before relaxing)
+ .debug_str     0x0000000000000fb7      0x48b /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x599 (size before relaxing)
+ .debug_str     0x0000000000001442       0x74 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+                                        0x24b (size before relaxing)
+ .debug_str     0x00000000000014b6       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x155 (size before relaxing)
+ .debug_str     0x00000000000014d6       0x1b /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+                                        0x154 (size before relaxing)
+ .debug_str     0x00000000000014f1       0xc6 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-int_errno.o)
+                                        0x1bf (size before relaxing)
+ .debug_str     0x00000000000015b7       0x3a /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+                                        0x1c6 (size before relaxing)
+ .debug_str     0x00000000000015f1       0x3a /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+                                        0x1cc (size before relaxing)
+ .debug_str     0x000000000000162b      0x16e /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+                                        0x1b9 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x22fe
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x125 obj/default/hello_world.o
+ .debug_loc     0x0000000000000125      0xb72 obj/default/led_control.o
+ .debug_loc     0x0000000000000c97      0x135 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000000dcc      0x170 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x0000000000000f3c      0x193 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x00000000000010cf       0x72 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000000000001141       0x21 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_usleep.o)
+ .debug_loc     0x0000000000001162       0x21 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000001183      0x658 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_loc     0x00000000000017db      0x1b1 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mutex.o)
+ .debug_loc     0x000000000000198c       0xec /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_loc     0x0000000000001a78       0x75 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+ .debug_loc     0x0000000000001aed       0x1f /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x0000000000001b0c       0x7e /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x0000000000001b8a       0x7e /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x0000000000001c08       0xaf /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_loc     0x0000000000001cb7       0x75 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_loc     0x0000000000001d2c       0x52 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x0000000000001d7e       0x94 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000001e12       0x1e /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x0000000000001e30      0x4ce /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x60
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000030       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000004100000                __alt_data_end = 0x4100000
+                0x0000000004100000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x4100000)
+OUTPUT(cpu0_ledmatrix.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x2d8
+ .debug_ranges  0x0000000000000000       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x50 obj/default/hello_world.o
+ .debug_ranges  0x0000000000000070       0x80 obj/default/led_control.o
+ .debug_ranges  0x00000000000000f0       0x10 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000100       0x28 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000128       0x10 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000138       0x48 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000180       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_ranges  0x0000000000000198       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_mailbox_simple.o)
+ .debug_ranges  0x00000000000001c8       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_ranges  0x00000000000001e0       0x20 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_ranges  0x0000000000000200       0x30 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x0000000000000230       0x18 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000248       0x10 /home/vm/Documents/QuartusQuake/sw/cpu0_ledmatrix_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_ranges  0x0000000000000258       0x10 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-memcmp.o)
+ .debug_ranges  0x0000000000000268       0x10 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000278       0x60 /opt/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/5.3.0/libgcc.a(lib2-divmod.o)
