@@ -1,2 +1,2 @@
-# Legged_Robots
-Gathering files related to MICRO-507 Legged Robots
+# Legged Robots
+[Demo Video](https://youtu.be/K4NEa1ccsZQ "Play on YouTube")
