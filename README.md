@@ -1,4 +1,4 @@
-# High School / University / Online
+# High School / University / Continued Online
 |School|Period ID|Track|Years|
 |:---:|:---:|---|:---:|
 |MOOC|www|Add here some of edX, Coursera...|N/A|
