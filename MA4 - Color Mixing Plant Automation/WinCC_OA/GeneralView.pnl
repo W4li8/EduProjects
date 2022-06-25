@@ -1,0 +1,8592 @@
+V 14
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 1817 784 N "_3DFace" 0
+E E E E E 1 -1 -1 0  87.99789274024234 49.14848769971981
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96.0354"
+"pdpi" "96.0318"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+6 179
+"RECTANGLE11"
+""
+1 0 70 E E E 1 E 1 E N "Black" E N "WF_MenupointText" E E
+ E E
+178 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 0.8886612021857927 87.1471999999999 5.710382513661056 1 E 0 70 320 680
+6 2
+"RECTANGLE6"
+""
+1 0 70 E E E 1 E 1 E N "_Transparent" E N "WF_MenupointText" E E
+ E E
+1 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Black.level\", \"System1:Tank_Yellow.level\",
+             \"System1:Tank_White.level\",\"System1:Tank_Cyan.level\",\"System1:Tank_Magenta.level\");
+
+}
+
+void animatetank(string dp, float value,string dp1, float value1,string dp2, float value2,
+                 string dp3, float value3,string dp4, float value4) {
+  if (value <= 5 || value1 <= 5 || value2 <= 5 || value3 <= 5 || value4 <= 5) {
+   RECTANGLE6.foreCol(\"stoerKamGingUnq\");
+  }
+
+
+  else  {
+   RECTANGLE6.foreCol(\"Black\");
+  }
+}" 0
+ E 0 5 3 2 1 E 1.003125 0 0.8886612021857925 87.14765999999986 5.710382513660775 1 E 0 70 320 680
+4 6
+"LINE5"
+""
+1 319.4999999999999 169.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+5 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 169.1484876997198 319.4999999999999 182.5179357420678
+4 7
+"LINE6"
+""
+1 306.7081218274111 169.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+6 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  306.7081218274111 169.1484876997198 319.4999999999999 169.1484876997198
+4 8
+"LINE7"
+""
+1 319.4999999999999 169.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 169.1484876997198 300.3121827411167 189.2026597632417
+4 9
+"LINE8"
+""
+1 319.8249291376419 188.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+8 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE8.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE8.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE8.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 188.8511474629615 307.0406493489564 189.3118890692225
+4 10
+"LINE9"
+""
+1 319.3840919035493 175.4896408813929 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+9 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE9.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE9.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE9.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.3840919035493 175.4896408813929 319.8249291376419 188.8511474629615
+4 11
+"LINE10"
+""
+1 319.8249291376419 188.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+10 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE10.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE10.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE10.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 188.8511474629615 299.9872536034748 169.5
+4 12
+"LINE11"
+""
+1 297.1142131979694 179.1755737314807 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+11 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 179.1755737314807 322.6979695431471 179.1755737314807
+4 13
+"LINE12"
+""
+1 297.1142131979694 188.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+12 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 188.8511474629615 322.6979695431471 188.8511474629615
+14 14
+"TEXT_FIELD1"
+""
+1 189.4999999999999 169.5000000000001 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+13 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4999999999999 156.3 281.4999999999999 200.3
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Cyan.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD1.text = value + \"cm\";
+}" 0
+ E
+2 15
+"PRIMITIVE_TEXT1"
+""
+1 107.4999999999999 166.1484876997198 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+14 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 166.1484876997198 157.4999999999999 196.1484876997198
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 166.1484876997198 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 4 Cyan
+LANG:10027 0 
+2 16
+"PRIMITIVE_TEXT2"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+15 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.84 0 1 18.37999999999988 -30.85151230028013 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 37 Tank            Level(0-100)    Trend
+LANG:10027 0 
+4 17
+"LINE50"
+""
+1 319.9408372340925 215.8252702601145 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+16 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE50.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE50.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE50.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.9408372340925 215.8252702601145 319.9408372340925 229.1947183024625
+4 18
+"LINE51"
+""
+1 306.7081218274111 209.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+17 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE51.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE51.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE51.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  306.7081218274111 209.1484876997198 319.4999999999999 209.1484876997198
+4 19
+"LINE52"
+""
+1 319.4999999999999 209.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+18 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE52.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE52.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE52.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 209.1484876997198 300.3121827411167 229.2026597632418
+4 20
+"LINE53"
+""
+1 319.9408372340925 229.1947183024625 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+19 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE53.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE53.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE53.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.9408372340925 229.1947183024625 307.156557445407 229.6554599087235
+4 21
+"LINE54"
+""
+1 319.4999999999998 209.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+20 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE54.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE54.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE54.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999998 209.1484876997198 319.9408372340924 222.5099942812884
+4 22
+"LINE55"
+""
+1 319.9408372340925 229.1947183024625 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+21 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE55.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE55.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE55.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.9408372340925 229.1947183024625 300.1031616999253 209.8435708395011
+4 23
+"LINE56"
+""
+1 300.3121827411169 221.5 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+22 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE56.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE56.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE56.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  300.3121827411169 221.5 325.8959390862946 221.5
+4 24
+"LINE57"
+""
+1 300.3121827411168 229.2026597632418 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+23 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Yellow.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE57.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE57.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE57.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  300.3121827411168 229.2026597632418 325.8959390862945 229.2026597632418
+2 26
+"PRIMITIVE_TEXT3"
+""
+1 107.4999999999999 206.1484876997198 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+25 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 206.1484876997198 157.4999999999999 236.1484876997198
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 206.1484876997198 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 6 Yellow
+LANG:10027 0 
+4 27
+"LINE58"
+""
+1 319.4999999999999 249.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+26 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE58.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE58.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE58.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 249.1484876997198 319.4999999999999 262.5179357420677
+4 28
+"LINE59"
+""
+1 306.7081218274111 249.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+27 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE59.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE59.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE59.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  306.7081218274111 249.1484876997198 319.4999999999999 249.1484876997198
+4 29
+"LINE60"
+""
+1 319.4999999999999 249.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+28 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE60.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE60.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE60.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 249.1484876997198 300.3121827411167 269.2026597632417
+4 30
+"LINE61"
+""
+1 319.8249291376419 268.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+29 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE61.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE61.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE61.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 268.8511474629615 307.0406493489564 269.3118890692225
+4 31
+"LINE62"
+""
+1 319.3840919035493 255.4896408813929 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+30 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE62.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE62.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE62.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.3840919035493 255.4896408813929 319.8249291376419 268.8511474629615
+4 32
+"LINE63"
+""
+1 319.8249291376419 268.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+31 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE63.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE63.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE63.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 268.8511474629615 299.9872536034747 249.5000000000001
+4 33
+"LINE64"
+""
+1 297.1142131979694 259.1755737314808 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+32 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE64.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE64.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE64.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 259.1755737314808 322.6979695431473 259.1755737314808
+4 34
+"LINE65"
+""
+1 297.1142131979694 268.8511474629614 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+33 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Magenta.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE65.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE65.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE65.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 268.8511474629614 322.6979695431472 268.8511474629614
+2 36
+"PRIMITIVE_TEXT4"
+""
+1 18 277 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+35 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.64 0 1 77.9799999999999 -30.85151230028016 0 E 18 277 68 307
+0 2 2 "0s" 0 0 0 64 0 0  18 277 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 7 Magenta
+LANG:10027 0 
+4 37
+"LINE66"
+""
+1 319.4999999999999 289.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+36 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE66.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE66.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE66.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 289.1484876997198 319.4999999999999 302.5179357420677
+4 38
+"LINE67"
+""
+1 306.7081218274111 289.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+37 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE67.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE67.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE67.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  306.7081218274111 289.1484876997198 319.4999999999999 289.1484876997198
+4 39
+"LINE68"
+""
+1 319.4999999999999 289.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+38 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE68.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE68.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE68.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 289.1484876997198 300.3121827411167 309.2026597632417
+4 40
+"LINE69"
+""
+1 319.8249291376419 308.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+39 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE69.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE69.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE69.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 308.8511474629615 307.0406493489564 309.3118890692225
+4 41
+"LINE70"
+""
+1 319.3840919035493 295.4896408813929 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+40 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE70.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE70.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE70.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.3840919035493 295.4896408813929 319.8249291376419 308.8511474629615
+4 42
+"LINE71"
+""
+1 319.8249291376419 308.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+41 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE71.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE71.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE71.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 308.8511474629615 299.9872536034747 289.5000000000001
+4 43
+"LINE72"
+""
+1 297.1142131979694 299.1755737314808 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+42 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE72.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE72.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE72.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 299.1755737314808 322.6979695431472 299.1755737314808
+4 44
+"LINE73"
+""
+1 297.1142131979694 308.8511474629614 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+43 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Black.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE73.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE73.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE73.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 308.8511474629614 322.6979695431472 308.8511474629614
+2 46
+"PRIMITIVE_TEXT5"
+""
+1 107.4999999999999 286.1484876997198 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+45 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 286.1484876997198 157.4999999999999 316.1484876997198
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 286.1484876997198 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 Black
+LANG:10027 0 
+4 47
+"LINE74"
+""
+1 319.4999999999999 329.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+46 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE74.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE74.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE74.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 329.1484876997198 319.4999999999999 342.5179357420677
+4 48
+"LINE75"
+""
+1 306.7081218274111 329.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+47 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE75.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE75.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE75.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  306.7081218274111 329.1484876997198 319.4999999999999 329.1484876997198
+4 49
+"LINE76"
+""
+1 319.4999999999999 329.1484876997198 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+48 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE76.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE76.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE76.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.4999999999999 329.1484876997198 300.3121827411167 349.2026597632417
+4 50
+"LINE77"
+""
+1 319.8249291376419 348.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+49 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE77.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE77.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE77.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 348.8511474629615 307.0406493489564 349.3118890692225
+4 51
+"LINE78"
+""
+1 319.3840919035493 335.4896408813928 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+50 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE78.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE78.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE78.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.3840919035493 335.4896408813928 319.8249291376419 348.8511474629615
+4 52
+"LINE79"
+""
+1 319.8249291376419 348.8511474629615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+51 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE79.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE79.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE79.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  319.8249291376419 348.8511474629615 299.9872536034747 329.5
+4 53
+"LINE80"
+""
+1 297.1142131979694 339.1755737314808 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+52 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE80.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE80.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE80.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 339.1755737314808 322.6979695431472 339.1755737314808
+4 54
+"LINE81"
+""
+1 297.1142131979694 348.8511474629614 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+53 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_White.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE81.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE81.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE81.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  297.1142131979694 348.8511474629614 322.6979695431472 348.8511474629614
+2 56
+"PRIMITIVE_TEXT6"
+""
+1 107.4999999999999 326.1484876997198 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+55 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 326.1484876997198 157.4999999999999 356.1484876997199
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 326.1484876997198 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 White
+LANG:10027 0 
+4 62
+"LINE82"
+""
+1 89.4999999999999 146.1484876997199 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+61 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  89.4999999999999 146.1484876997199 409.4999999999999 147.5
+4 63
+"LINE83"
+""
+1 89.49999999999987 375.2393967906289 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+62 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  89.49999999999987 375.2393967906289 409.4999999999999 376.5909090909091
+4 64
+"LINE85"
+""
+1 89.49999999999987 384.1666666666666 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+63 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  89.49999999999987 384.1666666666666 409.4999999999999 385.5181789669468
+2 65
+"PRIMITIVE_TEXT8"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+64 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 6.016400000000003 0 1 -9.115200000000154 241.1666666666666 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 47 Valve             State         Percentage-Open
+LANG:10027 0 
+2 66
+"PRIMITIVE_TEXT9"
+""
+1 107.4999999999999 418.1666666666667 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+65 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 418.1666666666667 157.4999999999999 448.1666666666667
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 418.1666666666667 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 3 1CV
+LANG:10027 0 
+2 67
+"PRIMITIVE_TEXT10"
+""
+1 107.4999999999999 452.1666666666667 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+66 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 452.1666666666667 157.4999999999999 482.1666666666667
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 452.1666666666667 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 3 1YV
+LANG:10027 0 
+2 68
+"PRIMITIVE_TEXT11"
+""
+1 107.2499999999999 486.1666666666666 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+67 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.2499999999999 486.1666666666666 157.2499999999999 516.1666666666667
+0 2 2 "0s" 0 0 0 64 0 0  107.2499999999999 486.1666666666666 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 3 1MV
+LANG:10027 0 
+2 69
+"PRIMITIVE_TEXT12"
+""
+1 107.4999999999999 520.1666666666667 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+68 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 520.1666666666667 157.4999999999999 550.1666666666667
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 520.1666666666667 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 3 1BV
+LANG:10027 0 
+2 70
+"PRIMITIVE_TEXT13"
+""
+1 107.4999999999999 554.1666666666667 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+69 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 107.4999999999999 554.1666666666667 157.4999999999999 584.1666666666667
+0 2 2 "0s" 0 0 0 64 0 0  107.4999999999999 554.1666666666667 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 3 1WV
+LANG:10027 0 
+14 71
+"TEXT_FIELD6"
+""
+1 189.4999999999999 425.1080000000001 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+70 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4999999999999 414.4 251.4999999999999 449.5
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value > 0) {
+  TEXT_FIELD6.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD6.text(\"Closed\");
+  }
+}" 0
+ E
+14 76
+"TEXT_FIELD12"
+""
+1 292.7183301528703 425.6189375000001 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+75 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  290.7183301528703 414.9109375 354.7183301528703 450.0109375000001
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD12.text = value ;
+}" 0
+ E
+14 77
+"TEXT_FIELD13"
+""
+1 292.7183301528703 456.6689375 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+76 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  290.7183301528703 445.9609375000001 354.7183301528703 481.0609375000001
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD13.text = value ;
+}" 0
+ E
+14 78
+"TEXT_FIELD14"
+""
+1 292.7183301528703 487.6939375000001 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+77 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  290.7183301528703 476.9859375 354.7183301528703 512.0859375000002
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD14.text = value ;
+}" 0
+ E
+14 79
+"TEXT_FIELD15"
+""
+1 292.7183301528703 518.7064374999999 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+78 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  290.7183301528703 507.9984375 354.7183301528703 543.0984374999999
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD15.text = value ;
+}" 0
+ E
+14 80
+"TEXT_FIELD16"
+""
+1 292.7183301528703 549.7126875 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+79 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  290.7183301528703 539.0046875 354.7183301528703 574.1046875000001
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD16.text = value ;
+}" 0
+ E
+2 89
+"PRIMITIVE_TEXT15"
+""
+1 171.2499999999999 72.60303315426526 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+88 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 171.2499999999999 72.60303315426526 327 99
+0 2 2 "0s" 0 0 0 192 0 0  171.2499999999999 72.60303315426526 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 35 Noto Sans,-1,19,5,75,0,1,0,0,0,Bold
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 16 Mixing station 1
+LANG:10001 16 Mixing station 1
+LANG:10027 16 Mixing station 1
+4 91
+"LINE88"
+""
+1 89.24999999999994 586 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+90 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  89.24999999999994 586 409.2499999999999 587.3515123002802
+14 95
+"TEXT_FIELD9"
+""
+1 189.4999999999999 486.9517499999999 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+94 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4999999999999 476.24375 251.4999999999999 511.3437499999999
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD9.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD9.text(\"Closed\");
+  }
+}" 0
+ E
+14 96
+"TEXT_FIELD10"
+""
+1 189.4999999999999 518.3681562499999 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+95 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4999999999999 507.6601562499999 251.4999999999999 542.7601562499999
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD10.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD10.text(\"Closed\");
+  }
+}" 0
+ E
+14 97
+"TEXT_FIELD11"
+""
+1 189.4999999999999 549.7126875 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+96 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4999999999999 539.0046874999999 251.4999999999999 574.1046875
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD11.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD11.text(\"Closed\");
+  }
+}" 0
+ E
+14 98
+"TEXT_FIELD7"
+""
+1 189.4999999999999 456.311125 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+97 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4999999999999 445.603125 251.4999999999999 480.703125
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value > 0) {
+  TEXT_FIELD7.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD7.text(\"Closed\");
+  }
+}" 0
+ E
+6 102
+"RECTANGLE10"
+""
+1 0 70 E E E 1 E 1 E N {0,0,0} E N "WF_MenupointText" E E
+ E E
+101 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 0.8910344091530051 423.7124888888889 6.069515744195503 1 E 0 70 320 680
+14 111
+"TEXT_FIELD19"
+""
+1 526.0652888888889 170.0252577182393 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+110 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 156.8252577182392 618.0652888888889 200.8252577182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Cyan.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD1.text = value + \"cm\";
+}" 0
+ E
+2 112
+"PRIMITIVE_TEXT18"
+""
+1 444.0652888888889 166.673745417959 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+111 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 166.673745417959 494.0652888888889 196.673745417959
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 166.673745417959 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 4 Cyan
+LANG:10027 0 
+2 113
+"PRIMITIVE_TEXT19"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+112 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.84 0 1 354.9452888888889 -30.32625458204095 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 37 Tank             Level(cm)      Trend
+LANG:10027 0 
+4 114
+"LINE97"
+""
+1 656.0652888888889 209.673745417959 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+113 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  656.0652888888889 209.673745417959 656.0652888888889 223.0431934603071
+4 115
+"LINE98"
+""
+1 643.2734107163001 209.673745417959 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+114 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  643.2734107163001 209.673745417959 656.0652888888889 209.673745417959
+4 116
+"LINE99"
+""
+1 656.0652888888889 209.673745417959 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+115 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  656.0652888888889 209.673745417959 636.8774716300056 229.7279174814809
+4 117
+"LINE100"
+""
+1 651.5479569326333 191.3493191494398 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+116 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE8.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE8.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE8.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  651.5479569326333 191.3493191494398 638.7636771439478 191.8100607557008
+4 118
+"LINE101"
+""
+1 651.1071196985406 177.9878125678711 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+117 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE9.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE9.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE9.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  651.1071196985406 177.9878125678711 651.5479569326333 191.3493191494398
+4 119
+"LINE102"
+""
+1 651.5479569326333 191.3493191494398 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+118 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE10.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE10.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE10.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  651.5479569326333 191.3493191494398 631.7102813984661 171.9981716864784
+4 120
+"LINE103"
+""
+1 633.6795020868584 290.574200411732 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+119 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  633.6795020868584 290.574200411732 659.2632584320361 290.574200411732
+4 121
+"LINE104"
+""
+1 633.6795020868584 300.2497741432128 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+120 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  633.6795020868584 300.2497741432128 659.2632584320361 300.2497741432128
+14 122
+"TEXT_FIELD20"
+""
+1 526.0652888888889 210.0252577182393 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+121 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 196.8252577182392 618.0652888888889 240.8252577182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Yellow.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD2.text = value;
+}" 0
+ E
+2 123
+"PRIMITIVE_TEXT20"
+""
+1 444.0652888888889 206.673745417959 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+122 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 206.673745417959 494.0652888888889 236.673745417959
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 206.673745417959 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 6 Yellow
+LANG:10027 0 
+4 124
+"LINE105"
+""
+1 656.0652888888889 249.673745417959 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+123 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  656.0652888888889 249.673745417959 656.0652888888889 263.043193460307
+4 125
+"LINE106"
+""
+1 643.2734107163001 249.673745417959 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+124 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  643.2734107163001 249.673745417959 656.0652888888889 249.673745417959
+4 126
+"LINE107"
+""
+1 656.0652888888889 249.673745417959 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+125 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  656.0652888888889 249.673745417959 636.8774716300056 269.7279174814808
+14 132
+"TEXT_FIELD21"
+""
+1 526.0652888888889 250.0252577182393 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+131 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 236.8252577182392 618.0652888888889 280.8252577182393
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Magenta.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD3.text = value;
+}" 0
+ E
+2 133
+"PRIMITIVE_TEXT21"
+""
+1 18 277 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+132 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.64 0 1 414.5452888888889 -30.32625458204098 0 E 18 277 68 307
+0 2 2 "0s" 0 0 0 64 0 0  18 277 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 7 Magenta
+LANG:10027 0 
+14 142
+"TEXT_FIELD22"
+""
+1 526.0652888888889 290.0252577182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+141 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 276.8252577182392 618.0652888888889 320.8252577182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Black.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD4.text = value;
+}" 0
+ E
+2 143
+"PRIMITIVE_TEXT22"
+""
+1 444.0652888888889 286.6737454179589 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+142 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 286.6737454179589 494.0652888888889 316.6737454179589
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 286.6737454179589 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 Black
+LANG:10027 0 
+14 152
+"TEXT_FIELD23"
+""
+1 526.0652888888889 330.0252577182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+151 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 316.8252577182392 618.0652888888889 360.8252577182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_White.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD5.text = value;
+}" 0
+ E
+2 153
+"PRIMITIVE_TEXT23"
+""
+1 444.0652888888889 326.6737454179589 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+152 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 326.6737454179589 494.0652888888889 356.6737454179591
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 326.6737454179589 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 White
+LANG:10027 0 
+4 154
+"LINE129"
+""
+1 426.0652888888889 146.6737454179591 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+153 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  426.0652888888889 146.6737454179591 746.0652888888889 148.0252577182391
+4 155
+"LINE130"
+""
+1 426.0652888888889 375.7646545088681 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+154 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  426.0652888888889 375.7646545088681 746.0652888888889 377.1161668091484
+4 156
+"LINE131"
+""
+1 426.0652888888889 384.6919243849057 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+155 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  426.0652888888889 384.6919243849057 746.0652888888889 386.043436685186
+2 157
+"PRIMITIVE_TEXT24"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+156 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 6.016400000000003 0 1 327.4500888888888 241.6919243849057 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 47 Valve             State         Percentage-Open
+LANG:10027 0 
+2 158
+"PRIMITIVE_TEXT25"
+""
+1 444.0652888888889 418.6919243849058 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+157 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 418.6919243849058 494.0652888888889 448.6919243849058
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 418.6919243849058 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V1
+LANG:10027 0 
+2 159
+"PRIMITIVE_TEXT26"
+""
+1 444.0652888888889 452.6919243849058 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+158 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 452.6919243849058 494.0652888888889 482.6919243849058
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 452.6919243849058 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V2
+LANG:10027 0 
+2 160
+"PRIMITIVE_TEXT27"
+""
+1 444.0652888888889 486.6919243849058 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+159 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 486.6919243849058 494.0652888888889 516.691924384906
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 486.6919243849058 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V3
+LANG:10027 0 
+2 161
+"PRIMITIVE_TEXT28"
+""
+1 444.0652888888889 520.6919243849059 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+160 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 520.6919243849059 494.0652888888889 550.691924384906
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 520.6919243849059 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V4
+LANG:10027 0 
+2 162
+"PRIMITIVE_TEXT29"
+""
+1 444.0652888888889 554.691924384906 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+161 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 444.0652888888889 554.691924384906 494.0652888888889 584.691924384906
+0 2 2 "0s" 0 0 0 64 0 0  444.0652888888889 554.691924384906 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V5
+LANG:10027 0 
+14 163
+"TEXT_FIELD24"
+""
+1 526.0652888888889 425.6332577182393 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+162 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 414.9252577182392 588.0652888888889 450.0252577182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD6.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD6.text(\"Closed\");
+  }
+}" 0
+ E
+14 164
+"TEXT_FIELD25"
+""
+1 629.2836190417593 426.1441952182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+163 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  627.2836190417593 415.4361952182391 691.2836190417593 450.5361952182393
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD12.text = value ;
+}" 0
+ E
+14 165
+"TEXT_FIELD26"
+""
+1 629.2836190417593 457.1941952182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+164 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  627.2836190417593 446.4861952182393 691.2836190417593 481.5861952182393
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD13.text = value ;
+}" 0
+ E
+14 166
+"TEXT_FIELD27"
+""
+1 629.2836190417593 488.2191952182393 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+165 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  627.2836190417593 477.5111952182392 691.2836190417593 512.6111952182393
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD14.text = value ;
+}" 0
+ E
+14 167
+"TEXT_FIELD28"
+""
+1 629.2836190417593 519.2316952182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+166 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  627.2836190417593 508.5236952182393 691.2836190417593 543.6236952182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD15.text = value ;
+}" 0
+ E
+14 168
+"TEXT_FIELD29"
+""
+1 629.2836190417593 550.2379452182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+167 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  627.2836190417593 539.5299452182392 691.2836190417593 574.6299452182393
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD16.text = value ;
+}" 0
+ E
+2 169
+"PRIMITIVE_TEXT30"
+""
+1 507.8152888888889 73.12829087250445 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+168 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 507.8152888888889 73.12829087250445 663 99
+0 2 2 "0s" 0 0 0 192 0 0  507.8152888888889 73.12829087250445 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 35 Noto Sans,-1,19,5,75,0,1,0,0,0,Bold
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 16 Mixing station 1
+LANG:10001 16 Mixing station 2
+LANG:10027 16 Mixing station 1
+4 170
+"LINE132"
+""
+1 425.8152888888889 586.5252577182391 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+169 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  425.8152888888889 586.5252577182391 745.8152888888889 587.8767700185194
+14 172
+"TEXT_FIELD30"
+""
+1 526.0652888888889 487.477007718239 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+171 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 476.7690077182392 588.0652888888889 511.869007718239
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD9.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD9.text(\"Closed\");
+  }
+}" 0
+ E
+14 173
+"TEXT_FIELD31"
+""
+1 526.0652888888889 518.893413968239 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+172 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 508.185413968239 588.0652888888889 543.285413968239
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD10.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD10.text(\"Closed\");
+  }
+}" 0
+ E
+14 174
+"TEXT_FIELD32"
+""
+1 526.0652888888889 550.2379452182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+173 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 539.5299452182392 588.0652888888889 574.6299452182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD11.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD11.text(\"Closed\");
+  }
+}" 0
+ E
+14 175
+"TEXT_FIELD33"
+""
+1 526.0652888888889 456.9395077182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+174 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  524.0652888888889 446.2315077182392 588.0652888888889 481.3315077182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD7.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD7.text(\"Closed\");
+  }
+}" 0
+ E
+14 182
+"TEXT_FIELD34"
+""
+1 189.4485999999999 209.5382937999302 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+181 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4485999999999 196.3382937999301 281.4485999999999 240.3382937999301
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Yellow.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD34.text = value + \"cm\";
+}" 0
+ E
+14 183
+"TEXT_FIELD35"
+""
+1 189.4743000000002 249.4537203499476 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+182 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.4743000000002 236.2537203499475 281.4743000000002 280.2537203499476
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Magenta.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD35.text = value + \"cm\";
+}" 0
+ E
+14 184
+"TEXT_FIELD36"
+""
+1 189.48715 289.4768601749739 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+183 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.48715 276.2768601749738 281.48715 320.2768601749738
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Black.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD36.text = value + \"cm\";
+}" 0
+ E
+14 185
+"TEXT_FIELD37"
+""
+1 189.493575 329.488430087487 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+184 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  187.493575 316.2884300874869 281.493575 360.2884300874869
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_White.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD37.text = value + \"cm\";
+}" 0
+ E
+4 186
+"LINE133"
+""
+1 633.6795020868584 340.2613440557259 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+185 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  633.6795020868584 340.2613440557259 659.2632584320361 340.2613440557259
+4 187
+"LINE134"
+""
+1 633.6795020868584 349.9369177872068 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+186 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  633.6795020868584 349.9369177872068 659.2632584320361 349.9369177872068
+6 188
+"RECTANGLE12"
+""
+1 0 70 E E E 1 E 1 E N {0,0,0} E N "WF_MenupointText" E E
+ E E
+187 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 0.8910344091530051 759.6472000000001 6.069515744195442 1 E 0 70 320 680
+14 189
+"TEXT_FIELD38"
+""
+1 862 170.0252577182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+188 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 156.8252577182391 954 200.8252577182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Cyan.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD1.text = value + \"cm\";
+}" 0
+ E
+2 190
+"PRIMITIVE_TEXT31"
+""
+1 780.0000000000001 166.6737454179589 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+189 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 166.6737454179589 830 196.6737454179589
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 166.6737454179589 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 4 Cyan
+LANG:10027 0 
+2 191
+"PRIMITIVE_TEXT32"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+190 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.84 0 1 690.8800000000001 -30.32625458204109 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 37 Tank             Level(cm)      Trend
+LANG:10027 0 
+4 192
+"LINE135"
+""
+1 992 209.6737454179589 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+191 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  992 209.6737454179589 992 223.043193460307
+4 193
+"LINE136"
+""
+1 979.2081218274113 209.6737454179589 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+192 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  979.2081218274113 209.6737454179589 992 209.6737454179589
+4 194
+"LINE137"
+""
+1 992 209.6737454179589 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+193 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  992 209.6737454179589 972.8121827411169 229.7279174814808
+4 195
+"LINE138"
+""
+1 987.4826680437445 191.3493191494397 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+194 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE8.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE8.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE8.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  987.4826680437445 191.3493191494397 974.6983882550589 191.8100607557006
+4 196
+"LINE139"
+""
+1 987.0418308096519 177.9878125678709 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+195 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE9.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE9.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE9.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  987.0418308096519 177.9878125678709 987.4826680437445 191.3493191494397
+4 197
+"LINE140"
+""
+1 987.4826680437445 191.3493191494397 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+196 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE10.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE10.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE10.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  987.4826680437445 191.3493191494397 967.6449925095774 171.9981716864782
+4 198
+"LINE141"
+""
+1 969.6142131979695 290.574200411732 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+197 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  969.6142131979695 290.574200411732 995.1979695431473 290.574200411732
+4 199
+"LINE142"
+""
+1 969.6142131979695 300.2497741432128 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+198 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  969.6142131979695 300.2497741432128 995.1979695431473 300.2497741432128
+14 200
+"TEXT_FIELD39"
+""
+1 862 210.0252577182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+199 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 196.8252577182391 954 240.8252577182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Yellow.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD2.text = value;
+}" 0
+ E
+2 201
+"PRIMITIVE_TEXT33"
+""
+1 780.0000000000001 206.6737454179589 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+200 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 206.6737454179589 830 236.6737454179589
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 206.6737454179589 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 6 Yellow
+LANG:10027 0 
+4 202
+"LINE143"
+""
+1 992 249.6737454179589 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+201 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  992 249.6737454179589 992 263.0431934603068
+4 203
+"LINE144"
+""
+1 979.2081218274113 249.6737454179589 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+202 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  979.2081218274113 249.6737454179589 992 249.6737454179589
+4 204
+"LINE145"
+""
+1 992 249.6737454179589 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+203 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  992 249.6737454179589 972.8121827411169 269.7279174814807
+14 205
+"TEXT_FIELD40"
+""
+1 862 250.0252577182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+204 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 236.8252577182391 954 280.8252577182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Magenta.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD3.text = value;
+}" 0
+ E
+2 206
+"PRIMITIVE_TEXT34"
+""
+1 18 277 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+205 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.64 0 1 750.48 -30.32625458204109 0 E 18 277 68 307
+0 2 2 "0s" 0 0 0 64 0 0  18 277 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 7 Magenta
+LANG:10027 0 
+14 207
+"TEXT_FIELD41"
+""
+1 862 290.025257718239 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+206 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 276.8252577182391 954 320.8252577182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Black.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD4.text = value;
+}" 0
+ E
+2 208
+"PRIMITIVE_TEXT35"
+""
+1 780.0000000000001 286.6737454179588 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+207 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 286.6737454179588 830 316.6737454179588
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 286.6737454179588 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 Black
+LANG:10027 0 
+14 209
+"TEXT_FIELD42"
+""
+1 862 330.025257718239 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+208 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 316.8252577182391 954 360.8252577182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_White.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD5.text = value;
+}" 0
+ E
+2 210
+"PRIMITIVE_TEXT36"
+""
+1 780.0000000000001 326.6737454179588 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+209 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 326.6737454179588 830 356.673745417959
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 326.6737454179588 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 White
+LANG:10027 0 
+4 211
+"LINE146"
+""
+1 762.0000000000001 146.673745417959 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+210 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  762.0000000000001 146.673745417959 1082 148.025257718239
+4 212
+"LINE147"
+""
+1 762.0000000000001 375.764654508868 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+211 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  762.0000000000001 375.764654508868 1082 377.1161668091482
+4 213
+"LINE148"
+""
+1 762.0000000000001 384.6919243849056 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+212 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  762.0000000000001 384.6919243849056 1082 386.0434366851858
+2 214
+"PRIMITIVE_TEXT37"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+213 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 6.016400000000003 0 1 663.3848 241.6919243849057 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 47 Valve             State         Percentage-Open
+LANG:10027 0 
+2 215
+"PRIMITIVE_TEXT38"
+""
+1 780.0000000000001 418.6919243849057 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+214 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 418.6919243849057 830 448.6919243849057
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 418.6919243849057 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V1
+LANG:10027 0 
+2 216
+"PRIMITIVE_TEXT39"
+""
+1 780.0000000000001 452.6919243849057 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+215 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 452.6919243849057 830 482.6919243849057
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 452.6919243849057 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V2
+LANG:10027 0 
+2 217
+"PRIMITIVE_TEXT40"
+""
+1 780.0000000000001 486.6919243849057 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+216 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 486.6919243849057 830 516.6919243849059
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 486.6919243849057 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V3
+LANG:10027 0 
+2 218
+"PRIMITIVE_TEXT41"
+""
+1 780.0000000000001 520.6919243849057 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+217 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 520.6919243849057 830 550.6919243849059
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 520.6919243849057 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V4
+LANG:10027 0 
+2 219
+"PRIMITIVE_TEXT42"
+""
+1 780.0000000000001 554.6919243849059 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+218 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 780.0000000000001 554.6919243849059 830 584.6919243849059
+0 2 2 "0s" 0 0 0 64 0 0  780.0000000000001 554.6919243849059 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V5
+LANG:10027 0 
+14 220
+"TEXT_FIELD43"
+""
+1 862 425.6332577182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+219 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 414.925257718239 924 450.025257718239
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD6.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD6.text(\"Closed\");
+  }
+}" 0
+ E
+14 221
+"TEXT_FIELD44"
+""
+1 965.2183301528705 426.1441952182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+220 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  963.2183301528705 415.436195218239 1027.218330152871 450.5361952182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD12.text = value ;
+}" 0
+ E
+14 222
+"TEXT_FIELD45"
+""
+1 965.2183301528705 457.1941952182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+221 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  963.2183301528705 446.4861952182392 1027.218330152871 481.5861952182391
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD13.text = value ;
+}" 0
+ E
+14 223
+"TEXT_FIELD46"
+""
+1 965.2183301528705 488.2191952182392 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+222 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  963.2183301528705 477.511195218239 1027.218330152871 512.6111952182393
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD14.text = value ;
+}" 0
+ E
+14 224
+"TEXT_FIELD47"
+""
+1 965.2183301528705 519.231695218239 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+223 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  963.2183301528705 508.5236952182391 1027.218330152871 543.623695218239
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD15.text = value ;
+}" 0
+ E
+14 225
+"TEXT_FIELD48"
+""
+1 965.2183301528705 550.2379452182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+224 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  963.2183301528705 539.529945218239 1027.218330152871 574.6299452182392
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD16.text = value ;
+}" 0
+ E
+2 226
+"PRIMITIVE_TEXT43"
+""
+1 843.75 73.12829087250444 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+225 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 843.75 73.12829087250444 999 99
+0 2 2 "0s" 0 0 0 192 0 0  843.75 73.12829087250444 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 35 Noto Sans,-1,19,5,75,0,1,0,0,0,Bold
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 16 Mixing station 1
+LANG:10001 16 Mixing station 3
+LANG:10027 16 Mixing station 1
+4 227
+"LINE149"
+""
+1 761.7500000000001 586.525257718239 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+226 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  761.7500000000001 586.525257718239 1081.75 587.8767700185193
+14 228
+"TEXT_FIELD49"
+""
+1 862 487.4770077182389 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+227 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 476.769007718239 924 511.8690077182389
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD9.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD9.text(\"Closed\");
+  }
+}" 0
+ E
+14 229
+"TEXT_FIELD50"
+""
+1 862 518.8934139682389 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+228 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 508.1854139682389 924 543.2854139682389
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD10.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD10.text(\"Closed\");
+  }
+}" 0
+ E
+14 230
+"TEXT_FIELD51"
+""
+1 862 550.2379452182391 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+229 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 539.529945218239 924 574.629945218239
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD11.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD11.text(\"Closed\");
+  }
+}" 0
+ E
+14 231
+"TEXT_FIELD52"
+""
+1 862 456.939507718239 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+230 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  860 446.2315077182391 924 481.331507718239
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD7.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD7.text(\"Closed\");
+  }
+}" 0
+ E
+4 232
+"LINE150"
+""
+1 969.6142131979695 340.2613440557259 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+231 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  969.6142131979695 340.2613440557259 995.1979695431473 340.2613440557259
+4 233
+"LINE151"
+""
+1 969.6142131979695 349.9369177872068 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+232 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  969.6142131979695 349.9369177872068 995.1979695431473 349.9369177872068
+6 234
+"RECTANGLE13"
+""
+1 0 70 E E E 1 E 1 E N {0,0,0} E N "WF_MenupointText" E E
+ E E
+233 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 0.8910344091530051 1103.6472 5.393759594055226 1 E 0 70 320 680
+14 235
+"TEXT_FIELD53"
+""
+1 1206 169.349501568099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+234 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 156.1495015680989 1298 200.1495015680989
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Cyan.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD1.text = value + \"cm\";
+}" 0
+ E
+2 236
+"PRIMITIVE_TEXT44"
+""
+1 1124 165.9979892678187 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+235 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 165.9979892678187 1174 195.9979892678187
+0 2 2 "0s" 0 0 0 64 0 0  1124 165.9979892678187 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 4 Cyan
+LANG:10027 0 
+2 237
+"PRIMITIVE_TEXT45"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+236 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.84 0 1 1034.88 -31.0020107321813 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 37 Tank             Level(cm)      Trend
+LANG:10027 0 
+4 238
+"LINE152"
+""
+1 1336 208.9979892678186 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+237 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1336 208.9979892678186 1336 222.3674373101667
+4 239
+"LINE153"
+""
+1 1323.208121827411 208.9979892678186 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+238 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1323.208121827411 208.9979892678186 1336 208.9979892678186
+4 240
+"LINE154"
+""
+1 1336 208.9979892678186 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+239 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1336 208.9979892678186 1316.812182741117 229.0521613313406
+4 241
+"LINE155"
+""
+1 1331.482668043745 190.6735629992994 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+240 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE8.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE8.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE8.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1331.482668043745 190.6735629992994 1318.698388255059 191.1343046055604
+4 242
+"LINE156"
+""
+1 1331.041830809652 177.3120564177307 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+241 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE9.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE9.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE9.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1331.041830809652 177.3120564177307 1331.482668043745 190.6735629992994
+4 243
+"LINE157"
+""
+1 1331.482668043745 190.6735629992994 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+242 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE10.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE10.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE10.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1331.482668043745 190.6735629992994 1311.644992509577 171.322415536338
+4 244
+"LINE158"
+""
+1 1313.61421319797 289.8984442615918 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+243 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1313.61421319797 289.8984442615918 1339.197969543147 289.8984442615918
+4 245
+"LINE159"
+""
+1 1313.61421319797 299.5740179930726 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+244 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  1313.61421319797 299.5740179930726 1339.197969543147 299.5740179930726
+14 246
+"TEXT_FIELD54"
+""
+1 1206 209.349501568099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+245 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 196.1495015680989 1298 240.1495015680989
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Yellow.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD2.text = value;
+}" 0
+ E
+2 247
+"PRIMITIVE_TEXT46"
+""
+1 1124 205.9979892678187 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+246 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 205.9979892678187 1174 235.9979892678187
+0 2 2 "0s" 0 0 0 64 0 0  1124 205.9979892678187 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 6 Yellow
+LANG:10027 0 
+4 248
+"LINE160"
+""
+1 1336 248.9979892678186 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+247 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1336 248.9979892678186 1336 262.3674373101666
+4 249
+"LINE161"
+""
+1 1323.208121827411 248.9979892678186 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+248 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1323.208121827411 248.9979892678186 1336 248.9979892678186
+4 250
+"LINE162"
+""
+1 1336 248.9979892678186 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+249 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1336 248.9979892678186 1316.812182741117 269.0521613313405
+14 251
+"TEXT_FIELD55"
+""
+1 1206 249.349501568099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+250 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 236.1495015680989 1298 280.149501568099
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Magenta.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD3.text = value;
+}" 0
+ E
+2 252
+"PRIMITIVE_TEXT47"
+""
+1 18 277 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+251 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.64 0 1 1094.48 -31.0020107321813 0 E 18 277 68 307
+0 2 2 "0s" 0 0 0 64 0 0  18 277 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 7 Magenta
+LANG:10027 0 
+14 253
+"TEXT_FIELD56"
+""
+1 1206 289.3495015680988 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+252 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 276.1495015680989 1298 320.1495015680989
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Black.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD4.text = value;
+}" 0
+ E
+2 254
+"PRIMITIVE_TEXT48"
+""
+1 1124 285.9979892678186 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+253 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 285.9979892678186 1174 315.9979892678186
+0 2 2 "0s" 0 0 0 64 0 0  1124 285.9979892678186 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 Black
+LANG:10027 0 
+14 255
+"TEXT_FIELD57"
+""
+1 1206 329.3495015680988 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+254 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 316.1495015680989 1298 360.1495015680989
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_White.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD5.text = value;
+}" 0
+ E
+2 256
+"PRIMITIVE_TEXT49"
+""
+1 1124 325.9979892678186 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+255 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 325.9979892678186 1174 355.9979892678188
+0 2 2 "0s" 0 0 0 64 0 0  1124 325.9979892678186 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 White
+LANG:10027 0 
+4 257
+"LINE163"
+""
+1 1106 145.9979892678188 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+256 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1106 145.9979892678188 1426 147.3495015680988
+4 258
+"LINE164"
+""
+1 1106 375.0888983587278 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+257 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1106 375.0888983587278 1426 376.440410659008
+4 259
+"LINE165"
+""
+1 1106 384.0161682347654 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+258 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1106 384.0161682347654 1426 385.3676805350456
+2 260
+"PRIMITIVE_TEXT50"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+259 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 6.016400000000003 0 1 1007.3848 241.0161682347655 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 47 Valve             State         Percentage-Open
+LANG:10027 0 
+2 261
+"PRIMITIVE_TEXT51"
+""
+1 1124 418.0161682347654 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+260 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 418.0161682347654 1174 448.0161682347654
+0 2 2 "0s" 0 0 0 64 0 0  1124 418.0161682347654 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V1
+LANG:10027 0 
+2 262
+"PRIMITIVE_TEXT52"
+""
+1 1124 452.0161682347654 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+261 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 452.0161682347654 1174 482.0161682347654
+0 2 2 "0s" 0 0 0 64 0 0  1124 452.0161682347654 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V2
+LANG:10027 0 
+2 263
+"PRIMITIVE_TEXT53"
+""
+1 1124 486.0161682347655 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+262 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 486.0161682347655 1174 516.0161682347657
+0 2 2 "0s" 0 0 0 64 0 0  1124 486.0161682347655 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V3
+LANG:10027 0 
+2 264
+"PRIMITIVE_TEXT54"
+""
+1 1124 520.0161682347657 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+263 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 520.0161682347657 1174 550.0161682347657
+0 2 2 "0s" 0 0 0 64 0 0  1124 520.0161682347657 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V4
+LANG:10027 0 
+2 265
+"PRIMITIVE_TEXT55"
+""
+1 1124 554.0161682347657 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+264 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1124 554.0161682347657 1174 584.0161682347657
+0 2 2 "0s" 0 0 0 64 0 0  1124 554.0161682347657 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V5
+LANG:10027 0 
+14 266
+"TEXT_FIELD58"
+""
+1 1206 424.957501568099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+265 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 414.2495015680988 1268 449.3495015680988
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD6.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD6.text(\"Closed\");
+  }
+}" 0
+ E
+14 267
+"TEXT_FIELD59"
+""
+1 1309.218330152871 425.4684390680989 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+266 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1307.218330152871 414.7604390680988 1371.218330152871 449.860439068099
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD12.text = value ;
+}" 0
+ E
+14 268
+"TEXT_FIELD60"
+""
+1 1309.218330152871 456.5184390680989 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+267 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1307.218330152871 445.810439068099 1371.218330152871 480.9104390680989
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD13.text = value ;
+}" 0
+ E
+14 269
+"TEXT_FIELD61"
+""
+1 1309.218330152871 487.543439068099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+268 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1307.218330152871 476.8354390680988 1371.218330152871 511.9354390680991
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD14.text = value ;
+}" 0
+ E
+14 270
+"TEXT_FIELD62"
+""
+1 1309.218330152871 518.5559390680988 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+269 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1307.218330152871 507.8479390680989 1371.218330152871 542.9479390680989
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD15.text = value ;
+}" 0
+ E
+14 271
+"TEXT_FIELD63"
+""
+1 1309.218330152871 549.562189068099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+270 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1307.218330152871 538.8541890680989 1371.218330152871 573.954189068099
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD16.text = value ;
+}" 0
+ E
+2 272
+"PRIMITIVE_TEXT56"
+""
+1 1187.75 72.45253472236422 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+271 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1187.75 72.45253472236422 1343 98
+0 2 2 "0s" 0 0 0 192 0 0  1187.75 72.45253472236422 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 35 Noto Sans,-1,19,5,75,0,1,0,0,0,Bold
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 16 Mixing station 1
+LANG:10001 16 Mixing station 4
+LANG:10027 16 Mixing station 1
+4 273
+"LINE166"
+""
+1 1105.75 585.8495015680988 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+272 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1105.75 585.8495015680988 1425.75 587.2010138683792
+14 274
+"TEXT_FIELD64"
+""
+1 1206 486.8012515680987 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+273 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 476.0932515680988 1268 511.1932515680987
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD9.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD9.text(\"Closed\");
+  }
+}" 0
+ E
+14 275
+"TEXT_FIELD65"
+""
+1 1206 518.2176578180987 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+274 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 507.5096578180987 1268 542.6096578180988
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD10.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD10.text(\"Closed\");
+  }
+}" 0
+ E
+14 276
+"TEXT_FIELD66"
+""
+1 1206 549.562189068099 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+275 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 538.8541890680989 1268 573.9541890680988
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD11.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD11.text(\"Closed\");
+  }
+}" 0
+ E
+14 277
+"TEXT_FIELD67"
+""
+1 1206 456.2637515680988 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+276 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1204 445.5557515680989 1268 480.6557515680988
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD7.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD7.text(\"Closed\");
+  }
+}" 0
+ E
+4 278
+"LINE167"
+""
+1 1313.61421319797 339.5855879055857 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+277 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1313.61421319797 339.5855879055857 1339.197969543147 339.5855879055857
+4 279
+"LINE168"
+""
+1 1313.61421319797 349.2611616370666 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+278 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  1313.61421319797 349.2611616370666 1339.197969543147 349.2611616370666
+6 280
+"RECTANGLE14"
+""
+1 0 70 E E E 1 E 1 E N {0,0,0} E N "WF_MenupointText" E E
+ E E
+279 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 0.8910344091530051 1441.6472 5.221635378104622 1 E 0 70 320 680
+14 281
+"TEXT_FIELD68"
+""
+1 1544 169.1773773521484 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+280 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 155.9773773521483 1636 199.9773773521483
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Cyan.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD1.text = value + \"cm\";
+}" 0
+ E
+2 282
+"PRIMITIVE_TEXT57"
+""
+1 1462 165.8258650518681 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+281 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 165.8258650518681 1512 195.8258650518681
+0 2 2 "0s" 0 0 0 64 0 0  1462 165.8258650518681 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 4 Cyan
+LANG:10027 0 
+2 283
+"PRIMITIVE_TEXT58"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+282 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 4.84 0 1 1372.88 -31.17413494813192 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 37 Tank             Level(cm)      Trend
+LANG:10027 0 
+4 284
+"LINE169"
+""
+1 1674 208.825865051868 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+283 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1674 208.825865051868 1674 222.1953130942161
+4 285
+"LINE170"
+""
+1 1661.208121827411 208.825865051868 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+284 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1661.208121827411 208.825865051868 1674 208.825865051868
+4 286
+"LINE171"
+""
+1 1674 208.825865051868 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+285 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1674 208.825865051868 1654.812182741117 228.88003711539
+4 287
+"LINE172"
+""
+1 1669.482668043745 190.5014387833488 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+286 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE8.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE8.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE8.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1669.482668043745 190.5014387833488 1656.698388255059 190.9621803896098
+4 288
+"LINE173"
+""
+1 1669.041830809652 177.1399322017801 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+287 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE9.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE9.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE9.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1669.041830809652 177.1399322017801 1669.482668043745 190.5014387833488
+4 289
+"LINE174"
+""
+1 1669.482668043745 190.5014387833488 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+288 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE10.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE10.foreCol(\"black\");}
+  if (oldvalue == value){
+    LINE10.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1669.482668043745 190.5014387833488 1649.644992509577 171.1502913203874
+4 290
+"LINE175"
+""
+1 1651.61421319797 289.7263200456412 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+289 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1651.61421319797 289.7263200456412 1677.197969543147 289.7263200456412
+4 291
+"LINE176"
+""
+1 1651.61421319797 299.401893777122 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+290 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  1651.61421319797 299.401893777122 1677.197969543147 299.401893777122
+14 292
+"TEXT_FIELD69"
+""
+1 1544 209.1773773521484 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+291 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 195.9773773521483 1636 239.9773773521483
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Yellow.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD2.text = value;
+}" 0
+ E
+2 293
+"PRIMITIVE_TEXT59"
+""
+1 1462 205.8258650518681 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+292 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 205.8258650518681 1512 235.8258650518681
+0 2 2 "0s" 0 0 0 64 0 0  1462 205.8258650518681 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 6 Yellow
+LANG:10027 0 
+4 294
+"LINE177"
+""
+1 1674 248.825865051868 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+293 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE5.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE5.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE5.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1674 248.825865051868 1674 262.195313094216
+4 295
+"LINE178"
+""
+1 1661.208121827411 248.825865051868 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+294 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE6.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE6.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE6.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1661.208121827411 248.825865051868 1674 248.825865051868
+4 296
+"LINE179"
+""
+1 1674 248.825865051868 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+295 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = 10000;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE7.foreCol(\"black\"); }
+  if (oldvalue > value){
+    LINE7.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE7.foreCol(\"_Transparent\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1674 248.825865051868 1654.812182741117 268.8800371153899
+14 297
+"TEXT_FIELD70"
+""
+1 1544 249.1773773521484 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+296 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 235.9773773521483 1636 279.9773773521484
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Magenta.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD3.text = value;
+}" 0
+ E
+2 298
+"PRIMITIVE_TEXT60"
+""
+1 18 277 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+297 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.64 0 1 1432.48 -31.17413494813192 0 E 18 277 68 307
+0 2 2 "0s" 0 0 0 64 0 0  18 277 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 7 Magenta
+LANG:10027 0 
+14 299
+"TEXT_FIELD71"
+""
+1 1544 289.1773773521482 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+298 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 275.9773773521483 1636 319.9773773521483
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_Black.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD4.text = value;
+}" 0
+ E
+2 300
+"PRIMITIVE_TEXT61"
+""
+1 1462 285.825865051868 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+299 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 285.825865051868 1512 315.825865051868
+0 2 2 "0s" 0 0 0 64 0 0  1462 285.825865051868 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 Black
+LANG:10027 0 
+14 301
+"TEXT_FIELD72"
+""
+1 1544 329.1773773521482 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+300 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 315.9773773521483 1636 359.9773773521483
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Tank_White.level\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD5.text = value;
+}" 0
+ E
+2 302
+"PRIMITIVE_TEXT62"
+""
+1 1462 325.825865051868 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+301 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 325.825865051868 1512 355.8258650518683
+0 2 2 "0s" 0 0 0 64 0 0  1462 325.825865051868 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 5 White
+LANG:10027 0 
+4 303
+"LINE180"
+""
+1 1444 145.8258650518682 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+302 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1444 145.8258650518682 1764 147.1773773521482
+4 304
+"LINE181"
+""
+1 1444 374.9167741427772 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+303 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1444 374.9167741427772 1764 376.2682864430574
+4 305
+"LINE182"
+""
+1 1444 383.8440440188148 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+304 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1444 383.8440440188148 1764 385.195556319095
+2 306
+"PRIMITIVE_TEXT63"
+""
+1 18 145 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+305 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 6.016400000000003 0 1 1345.3848 240.8440440188149 0 E 18 145 68 175
+0 2 2 "0s" 0 0 0 64 0 0  18 145 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 47 Valve             State         Percentage-Open
+LANG:10027 0 
+2 307
+"PRIMITIVE_TEXT64"
+""
+1 1462 417.8440440188149 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+306 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 417.8440440188149 1512 447.8440440188149
+0 2 2 "0s" 0 0 0 64 0 0  1462 417.8440440188149 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V1
+LANG:10027 0 
+2 308
+"PRIMITIVE_TEXT65"
+""
+1 1462 451.8440440188149 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+307 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 451.8440440188149 1512 481.8440440188149
+0 2 2 "0s" 0 0 0 64 0 0  1462 451.8440440188149 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V2
+LANG:10027 0 
+2 309
+"PRIMITIVE_TEXT66"
+""
+1 1462 485.844044018815 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+308 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 485.844044018815 1512 515.8440440188151
+0 2 2 "0s" 0 0 0 64 0 0  1462 485.844044018815 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V3
+LANG:10027 0 
+2 310
+"PRIMITIVE_TEXT67"
+""
+1 1462 519.8440440188151 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+309 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 519.8440440188151 1512 549.8440440188151
+0 2 2 "0s" 0 0 0 64 0 0  1462 519.8440440188151 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V4
+LANG:10027 0 
+2 311
+"PRIMITIVE_TEXT68"
+""
+1 1462 553.8440440188151 E E E 1 E 1 E N "_WindowText" E N "_Transparent" E E
+ E E
+310 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1462 553.8440440188151 1512 583.8440440188151
+0 2 2 "0s" 0 0 0 64 0 0  1462 553.8440440188151 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 0 
+LANG:10001 2 V5
+LANG:10027 0 
+14 312
+"TEXT_FIELD73"
+""
+1 1544 424.7853773521484 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+311 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 414.0773773521482 1606 449.1773773521482
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD6.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD6.text(\"Closed\");
+  }
+}" 0
+ E
+14 313
+"TEXT_FIELD74"
+""
+1 1647.218330152871 425.2963148521483 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+312 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1645.218330152871 414.5883148521482 1709.218330152871 449.6883148521484
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank1.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD12.text = value ;
+}" 0
+ E
+14 314
+"TEXT_FIELD75"
+""
+1 1647.218330152871 456.3463148521483 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+313 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1645.218330152871 445.6383148521484 1709.218330152871 480.7383148521483
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD13.text = value ;
+}" 0
+ E
+14 315
+"TEXT_FIELD76"
+""
+1 1647.218330152871 487.3713148521484 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+314 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1645.218330152871 476.6633148521482 1709.218330152871 511.7633148521485
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD14.text = value ;
+}" 0
+ E
+14 316
+"TEXT_FIELD77"
+""
+1 1647.218330152871 518.3838148521481 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+315 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1645.218330152871 507.6758148521483 1709.218330152871 542.7758148521482
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD15.text = value ;
+}" 0
+ E
+14 317
+"TEXT_FIELD78"
+""
+1 1647.218330152871 549.3900648521483 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+316 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1645.218330152871 538.6820648521482 1709.218330152871 573.7820648521483
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.value.position\");
+
+}
+
+void animatetank(string dp, float value) {
+  TEXT_FIELD16.text = value ;
+}" 0
+ E
+2 318
+"PRIMITIVE_TEXT69"
+""
+1 1525.75 72.28041050641363 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+317 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 1525.75 72.28041050641363 1681 98
+0 2 2 "0s" 0 0 0 192 0 0  1525.75 72.28041050641363 1
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 35 Noto Sans,-1,19,5,75,0,1,0,0,0,Bold
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0 3
+LANG:10000 16 Mixing station 1
+LANG:10001 16 Mixing station 5
+LANG:10027 16 Mixing station 1
+4 319
+"LINE183"
+""
+1 1443.75 585.6773773521481 E E E 1 E 1 E N "WF_Head" E N {255,255,255} E E
+ E E
+318 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1443.75 585.6773773521481 1763.75 587.0288896524285
+14 320
+"TEXT_FIELD79"
+""
+1 1544 486.6291273521481 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+319 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 475.9211273521482 1606 511.0211273521481
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank3.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD9.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD9.text(\"Closed\");
+  }
+}" 0
+ E
+14 321
+"TEXT_FIELD80"
+""
+1 1544 518.045533602148 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+320 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 507.3375336021481 1606 542.4375336021481
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank4.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD10.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD10.text(\"Closed\");
+  }
+}" 0
+ E
+14 322
+"TEXT_FIELD81"
+""
+1 1544 549.3900648521483 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+321 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 538.6820648521482 1606 573.7820648521481
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank5.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD11.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD11.text(\"Closed\");
+  }
+}" 0
+ E
+14 323
+"TEXT_FIELD82"
+""
+1 1544 456.0916273521482 E E E 1 E 1 E N "_WindowText" E N "WF_MenupointText" E E
+ E E
+322 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+3
+LANG:10000 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+0  1542 445.3836273521483 1606 480.4836273521482
+2 "0s" 0 0 0 0 0 -1  E "main()
+{
+  dpConnect (\"animatetank\", \"System1:Valve_Tank2.state.open\");
+
+}
+
+void animatetank(string dp, float value) {
+  if (value) {
+  TEXT_FIELD7.text(\"Open\");
+  }
+  else  {
+  TEXT_FIELD7.text(\"Closed\");
+  }
+}" 0
+ E
+4 324
+"LINE184"
+""
+1 1651.61421319797 339.4134636896351 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+323 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE11.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE11.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE11.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+
+
+" 0
+ E 0 3 3 2 1 E  1651.61421319797 339.4134636896351 1677.197969543147 339.4134636896351
+4 325
+"LINE185"
+""
+1 1651.61421319797 349.089037421116 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+324 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  dpConnect (\"trend\", \"System1:Tank_Cyan.level\");
+
+}
+
+float oldvalue = -1;
+
+void trend(string sDpe, float value) {
+  if (oldvalue < value){
+    LINE12.foreCol(\"_Transparent\"); }
+  if (oldvalue > value){
+    LINE12.foreCol(\"_Transparent\");}
+  if (oldvalue == value){
+    LINE12.foreCol(\"black\");
+}
+
+oldvalue = value;
+
+}
+" 0
+ E 0 3 3 2 1 E  1651.61421319797 349.089037421116 1677.197969543147 349.089037421116
+4 326
+"LINE186"
+""
+1 87.1476599999998 67.91666666666625 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+325 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  87.1476599999998 67.91666666666625 408.1476599999999 67.91666666666625
+4 327
+"LINE187"
+""
+1 87.14765999999986 609.9999999999997 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+326 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  87.14765999999986 609.9999999999997 408.1476599999999 609.9999999999997
+4 328
+"LINE188"
+""
+1 87.14765999999987 67.91666666666623 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+327 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  87.14765999999987 67.91666666666623 87.14765999999987 609.9999999999998
+4 329
+"LINE189"
+""
+1 408.1476599999999 67.91666666666615 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+328 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  408.1476599999999 67.91666666666615 408.1476599999999 609.9999999999997
+2 330
+"PRIMITIVE_TEXT70"
+""
+1 170 650 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+329 0 0 0 0 0
+E E E
+0
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.703155910836763 0 1 -199.2406966941017 11 0 E 170 650 710 670
+0 2 2 "0s" 0 0 0 64 0 0  170 650 1
+3
+LANG:10000 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+LANG:10001 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0 3
+LANG:10000 115 (Just the panel of the first mixing station can be tested, the others would only be a copy because of lack of data)
+LANG:10001 124 (Just the panel of the first mixing station can be tested, the others would only be a copy because of lack of data for them)
+LANG:10027 115 (Just the panel of the first mixing station can be tested, the others would only be a copy because of lack of data)
+0
+LAYER, 1 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+3
+LANG:10000 0 
+LANG:10001 0 
+LANG:10027 0 
+0
+0
