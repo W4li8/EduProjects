@@ -1,7 +1,8 @@
 # High School / University / Continued Online
-|School|Period ID|Track|Years|
+|Institution|Period ID|Track|Years|
 |:---:|:---:|---|:---:|
 |MOOC|W3S|Add here some of edX, Coursera...|N/A|
+|Caltech|CIT|Thesis Research Project|N/A|
 |EPFL|MA|Robotics & Systems Engineering|2020 - 2023|
 |—|BA|Microengineering|2017 - 2020|
 |—|SHS|Social and Human Sciences|N/A|
