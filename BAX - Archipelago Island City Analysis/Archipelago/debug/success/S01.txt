@@ -1,0 +1,22 @@
+# correct file: should produce the success message
+
+
+# nb housing
+1
+# housing:
+	14 0.000000 0.000000 1000
+
+
+# nb transport
+1
+	15 0.000000 100.000000 1000
+
+# nb production
+1
+	16 100.000000 0.0 1000
+
+# nb link
+2
+	14 15
+	14 16
+
