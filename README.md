@@ -2,6 +2,7 @@
 |Institution|Period ID|Track|Years|
 |:---:|:---:|---|:---:|
 |MOOC|W3S|Add here some of edX, Coursera...|N/A|
+|CIAM|MGT|Executive Management & Business Analytics|2024 - 2026|
 |Caltech|CIT|Thesis Research Project|N/A|
 |EPFL|MA|Robotics & Systems Engineering|2020 - 2023|
 |—|BA|Microengineering|2017 - 2020|
